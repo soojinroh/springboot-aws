@@ -3,12 +3,8 @@ package com.springbootaws.book.domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.*;
 
 @Getter
 @NoArgsConstructor
@@ -19,10 +15,10 @@ public class Posts {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @Column(length = 500, nullable = false)
     private String title;
 
-    @Column
+    @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
 
     private String author;
