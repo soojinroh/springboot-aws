@@ -1,6 +1,10 @@
 HELP.md
 .gradle
 build/
+
+### google oauth
+application-oauth.properties
+
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**

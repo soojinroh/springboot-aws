@@ -1,6 +1,6 @@
 package com.springbootaws.book.web.dto;
 
-import com.springbootaws.book.domain.Posts;
+import com.springbootaws.book.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,5 +1,6 @@
 package com.springbootaws.book.domain;
 
+import com.springbootaws.book.domain.posts.Posts;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,4 +1,4 @@
-package com.springbootaws.book.domain;
+package com.springbootaws.book.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
